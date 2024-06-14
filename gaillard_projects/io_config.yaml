@@ -1,0 +1,9 @@
+version: 0.1.1
+prophet:
+  # MySQL
+  MYSQL_DATABASE: "{{ env_var('PROPHET_MYSQL_DATABASE') }}"
+  MYSQL_HOST: "{{ env_var('PROPHET_MYSQL_HOST') }}"
+  MYSQL_PASSWORD: "{{ env_var('PROPHET_MYSQL_PASSWORD') }}"
+  MYSQL_PORT: "{{ env_var('PROPHET_MYSQL_PORT') }}"
+  MYSQL_USER: "{{ env_var('PROPHET_MYSQL_USER') }}"
+
