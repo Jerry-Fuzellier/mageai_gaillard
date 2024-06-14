@@ -1,4 +1,4 @@
-# Mage.ai NPM
+# Mage.ai GAILLARD
 
 ## Start
 ```
